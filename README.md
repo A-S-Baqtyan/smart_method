@@ -1,6 +1,7 @@
 # SmartMethod
 
 A `smart_method` gem provides nice and sweet methods to write a readabel and simple ruby code.
+This gem is under development and it will be contains alot of methods in the future.
 
 ## Installation
 
