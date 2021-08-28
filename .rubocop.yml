@@ -1,0 +1,44 @@
+AllCops:
+  TargetRubyVersion: 3.0.0
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Layout/LineLength:
+  Max: 120
+
+Documentation:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Lint/Void:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/ClassLength:
+  Max: 1500
+
+Metrics/MethodLength:
+  Max: 25
+
+Metrics/BlockLength:
+  Max: 70
+
+Layout/HashAlignment:
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
