@@ -30,20 +30,20 @@ You can use it with many ruby objects like:
     # Array methods:
     # - contains?
     # using: 
-        # ['Ahmed', 'Salim', 'Majed'].contains?('Ahmed', 'Salim')
+        ['Ahmed', 'Salim', 'Majed'].contains?('Ahmed', 'Salim')
         # Above code should be returns true if all passed values present in the array which # means all passed values must be present in the array or it will return         # false.
 
     # - two?, three?, four? and five?
     # using:
-         # ['dd', nil].two? returns true if array size equal 2 otherwise false.
-         # ['dd', nil, 10].three? returns true if array size equal 3 otherwise false.
-         # ['dd', nil, 10, :id].four? returns true if array size equal 4 otherwise false.
-         # ['dd', nil, 10, :id, '20'].five? returns true if array size equal 5 otherwise false.
+         ['dd', nil].two? # returns true if array size equal 2 otherwise false.
+         ['dd', nil, 10].three? # returns true if array size equal 3 otherwise false.
+         ['dd', nil, 10, :id].four? # returns true if array size equal 4 otherwise false.
+         ['dd', nil, 10, :id, '20'].five? # returns true if array size equal 5 otherwise false.
 
     # Hash methods:
     # - has_keys?
     # using:
-         # {id: 1, name: 'Ahmed', 'age' => 25}.has_keys?(:id, :name)
+         {id: 1, name: 'Ahmed', 'age' => 25}.has_keys?(:id, :name)
          # above method returns true if hash already has id and name keys otherwise false.
          
     # and there is alot of sweet methods will be comes.
