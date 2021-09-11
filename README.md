@@ -39,13 +39,41 @@ You can use it with many ruby objects like:
          ['dd', nil, 10].three? # returns true if array size equal 3 otherwise false.
          ['dd', nil, 10, :id].four? # returns true if array size equal 4 otherwise false.
          ['dd', nil, 10, :id, '20'].five? # returns true if array size equal 5 otherwise false.
+         
+    # - integers
+    # using:
+           [1, '100', nil, 5.0, true, 50].integers # => [1, 50] returns array of integers for you.
+           
+    # - has_equals_values?
+    # using:
+           [1, 1, 1, 1].has_equals_values? # => check if all array's elements equals, so it will returns true if all are same otherwise false
+
+    # - strings
+    # using:
+           [1, '100', nil, 5.0, true, 5, 'Salim'].strings # => ['100', 'Salim'] returns array of strings for you.
 
     # Hash methods:
     # - has_keys?
     # using:
          {id: 1, name: 'Ahmed', 'age' => 25}.has_keys?(:id, :name)
          # above method returns true if hash already has id and name keys otherwise false.
-         
+
+    # - replace_key(old_key, new_key)
+    # using:
+          data = { id: 10 }
+          data.replace_key(:id, :code) # => data will equal { code: 10 }
+          # above method will replace specific hash key with other key.
+
+    # - first_key
+    # using:
+           {id: 1, name: 'Ahmed', 'age' => 25}.first_key => :id
+           # above method will return first key for you.
+    
+    # - last_key
+    # using:
+           {id: 1, name: 'Ahmed', 'age' => 25}.last_key => 'age'
+           # above method will return last key for you.
+
     # and there is alot of sweet methods will be comes.
 ```
 
