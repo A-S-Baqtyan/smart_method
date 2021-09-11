@@ -8,7 +8,7 @@ This gem is under development and it will be contains alot of methods in the fut
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'smart_method', '~> 0.1.0'
+gem 'smart_method', '~> 0.2.0'
 ```
 
 And then execute:
